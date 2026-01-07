@@ -1,0 +1,11 @@
+# Quick fix for streamlit_app.py line 452-480
+# Delete lines 452-480 (the duplicate leftover code)
+
+# The function display_file_details should end at line 451 with:
+#         except Exception as e:
+#             st.error(f"Error loading content: {str(e)}")
+#
+# And immediately after should be:
+#
+# @with_error_boundary  
+# def display_overview(upload_id):

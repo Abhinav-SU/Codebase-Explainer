@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project Specific
+uploads/
+summaries/
+*.log
+logs/
+embeddings_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Reports and Documentation (Keep local for college submission)
+*.md
+!README.md
+*.pdf
+
+# Test Scripts (Keep local only)
+test_*.py
+check_*.py
+verify_*.py
+validate_*.py
+wait_*.py
+start_*.py
+create_*.py
+demo_test_*.py
+
+# Demo and Video Files
+demo_video/
+voiceover/
+*.webm
+*.mp4
+*.mp3
+
+# Temporary Files
+node_modules/
+package-lock.json
+
+# Test Data
+test_data/
+
+# Scripts (demo creation only - not part of project)
+scripts/

@@ -1,0 +1,9 @@
+# Optional AI dependencies - install separately if needed
+# pip install -r requirements-ai.txt
+
+# Google Gemini
+google-generativeai>=0.8.0
+
+# LlamaIndex (for advanced features)
+llama-index-core>=0.11.0
+llama-index-llms-gemini>=0.1.0
