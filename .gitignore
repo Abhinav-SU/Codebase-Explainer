@@ -69,8 +69,20 @@ verify_*.py
 validate_*.py
 wait_*.py
 start_*.py
+start.ps1
 create_*.py
+generate_*.py
 demo_test_*.py
+test_*.ps1
+
+# Temporary Status Files
+*.txt
+!requirements.txt
+!.gitignore
+
+# Package files (not part of core project)
+package.json
+package-lock.json
 
 # Demo and Video Files
 demo_video/
